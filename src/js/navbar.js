@@ -3,9 +3,9 @@ logo.textContent = "Caffeine";
 
 const buttonTexts = ["Home", "Menu", "Contact"];
 const buttons = document.createElement("ul");
-for (const buttonText of buttonTexts) {
+for (const text of buttonTexts) {
   const button = document.createElement("li");
-  button.textContent = buttonText;
+  button.textContent = text;
   buttons.appendChild(button);
 }
 
