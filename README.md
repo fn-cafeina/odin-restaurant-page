@@ -1,3 +1,3 @@
-# Odin Restaurant Page
+# Webpack Template
 
-Restaurant Page
+Weback template mainly used for TOP projects.
