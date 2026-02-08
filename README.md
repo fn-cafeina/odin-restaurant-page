@@ -1,3 +1,3 @@
 # Odin Restaurant Page
 
-Restaurant Page
+A simple and dynamic Restaurant Page.
