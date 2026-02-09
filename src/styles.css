@@ -12,6 +12,10 @@
 
 body {
   font-family: "PublicSans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100dvh;
 }
 
 header {
@@ -46,4 +50,35 @@ header button {
 
 header button:hover {
   opacity: 0.9;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex: 1;
+  background-color: #1b1107;
+  color: #fff;
+  padding: 80px;
+  gap: 40px;
+}
+
+.home-hero {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.home-description {
+  color: #dddddd;
+}
+
+.home-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
