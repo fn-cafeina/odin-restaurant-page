@@ -1,5 +1,9 @@
+const navbar = document.createElement("nav");
+
 const logo = document.createElement("p");
 logo.textContent = "Caffeine";
+
+navbar.appendChild(logo);
 
 const buttonTexts = ["Home", "Menu", "Contact"];
 const buttons = document.createElement("ul");
@@ -9,9 +13,6 @@ for (const text of buttonTexts) {
   buttons.appendChild(button);
 }
 
-const navbar = document.createElement("nav");
-
-navbar.appendChild(logo);
 navbar.appendChild(buttons);
 
 export default navbar;
