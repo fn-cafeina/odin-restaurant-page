@@ -14,7 +14,7 @@ body {
   font-family: "PublicSans", sans-serif;
 }
 
-nav {
+header {
   background-color: #1b1107;
   display: flex;
   justify-content: space-between;
@@ -24,22 +24,25 @@ nav {
   flex-wrap: wrap;
 }
 
-nav p {
+header p {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-nav ul {
+header nav {
   display: flex;
   gap: 20px;
 }
 
-nav li {
+header button {
   color: #dddddd;
+  background-color: transparent;
+  border: none;
+  font: inherit;
   cursor: pointer;
 }
 
-nav li:hover {
+header button:hover {
   opacity: 0.9;
 }

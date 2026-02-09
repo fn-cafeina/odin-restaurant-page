@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import navbar from "./js/navbar.js";
+import header from "./js/header.js";
 
 const body = document.body;
-body.appendChild(navbar);
+body.appendChild(header);
