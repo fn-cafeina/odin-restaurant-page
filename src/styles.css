@@ -13,3 +13,33 @@
 body {
   font-family: "PublicSans", sans-serif;
 }
+
+nav {
+  background-color: #1b1107;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav p {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  color: #dddddd;
+  cursor: pointer;
+}
+
+nav li:hover {
+  opacity: 0.9;
+}
