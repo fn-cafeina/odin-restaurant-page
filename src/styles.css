@@ -127,3 +127,70 @@ header button:hover {
 .menu-description {
   width: 70%;
 }
+
+.contact {
+  flex: 1;
+  background-color: #1b1107;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 80px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-left > div {
+  background-color: #c7ac8f;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #1b1107;
+  font-weight: 600;
+  border: 2px solid #fff;
+}
+
+.contact-left > p {
+  font-size: 1.5rem;
+}
+
+.contact-left,
+.contact-right {
+  border: 1px solid #e2e2e29c;
+  border-top: none;
+  border-bottom: none;
+  padding: 20px;
+}
+
+.contact-right {
+  border-left: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-right > p:first-child {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.contact-right > p:last-child {
+  font-size: 1.5rem;
+  color: #c7ac8f;
+}
+
+.contact-right > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.contact-right > div span {
+  color: #adadad;
+}
