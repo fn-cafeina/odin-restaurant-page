@@ -18,7 +18,7 @@ textContainer.appendChild(description);
 const cards = document.createElement("div");
 const images = [AmericanoImage, CappuccinoImage, EspressoImage];
 const names = ["Americano", "Cappuccino", "Espresso"];
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i < 3; i++) {
   const card = document.createElement("div");
   const name = document.createElement("p");
   const image = new Image();
