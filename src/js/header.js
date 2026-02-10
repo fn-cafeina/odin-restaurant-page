@@ -15,4 +15,6 @@ for (const text of buttonTexts) {
 
 header.appendChild(buttons);
 
+export { buttons };
+
 export default header;
