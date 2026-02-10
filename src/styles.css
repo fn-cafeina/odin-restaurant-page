@@ -82,3 +82,48 @@ header button:hover {
   flex-direction: column;
   gap: 20px;
 }
+
+.menu {
+  background-color: #ddb288;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+}
+
+.menu-hero {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.menu-description {
+  color: #131313;
+}
+
+.menu-cards {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.menu-card {
+  background-color: #1b1107;
+  padding: 10px;
+  color: #dddddd;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menu-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-description {
+  width: 70%;
+}
