@@ -33,8 +33,8 @@ for (let i = 0; i < 3; i++) {
   image.width = "200";
   image.height = "auto";
 
-  card.appendChild(name);
   card.appendChild(image);
+  card.appendChild(name);
 
   cards.appendChild(card);
 }
