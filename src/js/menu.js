@@ -16,6 +16,7 @@ description.classList.add("menu-description");
 const textContainer = document.createElement("div");
 textContainer.appendChild(hero);
 textContainer.appendChild(description);
+textContainer.classList.add("menu-text");
 
 const cards = document.createElement("div");
 cards.classList.add("menu-cards");
